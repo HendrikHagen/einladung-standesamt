@@ -1,0 +1,24 @@
+{
+  "cover": {
+    "tagline": "Wir heiraten!",
+    "names": "Anita & Hendrik",
+    "date": "17. Juni 2025",
+    "openButton": "Einladung öffnen",
+    "openHint": "Tippe zum Öffnen"
+  },
+  "invitation": {
+    "names": "Anita & Hendrik",
+    "message": "Wir freuen uns,\ndich zu unserer standesamtlichen Trauung einzuladen.",
+    "bodyText": "In einem kleinen, gemütlichen Kreis werden wir diesen schönen Schritt unseres Lebens gemeinsam gehen – und es würde uns viel bedeuten, diesen besonderen Moment mit dir zu teilen.",
+    "details": {
+      "when": "Wann",
+      "where": "Wo",
+      "date": "17. Juni 2026",
+      "time": "11:30 Uhr",
+      "location": "Standesamt Karlsruhe - Raum Fidelitas",
+      "address": "Kaiserallee 8\n76133 Karlsruhe"
+    },
+    "closing": "Wir freuen uns auf dich.",
+    "signature": "Herzliche Grüße,"
+  }
+}

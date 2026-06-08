@@ -1,0 +1,24 @@
+{
+  "cover": {
+    "tagline": "¡Nos casamos!",
+    "names": "Anita & Hendrik",
+    "date": "17 de junio de 2026",
+    "openButton": "Abrir invitación",
+    "openHint": "Toca para abrir"
+  },
+  "invitation": {
+    "names": "Anita & Hendrik",
+    "message": "Con mucha alegría,\nte invitamos a nuestra boda civil.",
+    "bodyText": "En un círculo pequeño y cercano daremos juntos este hermoso paso en nuestra vida – y significaría mucho para nosotros compartir este momento especial contigo.",
+    "details": {
+      "when": "Cuándo",
+      "where": "Dónde",
+      "date": "17 de junio de 2026",
+      "time": "11:30 h",
+      "location": "Standesamt Karlsruhe - Raum Fidelitas",
+      "address": "Kaiserallee 8\n76133 Karlsruhe"
+    },
+    "closing": "¡Esperamos verte allí!",
+    "signature": "Con cariño,"
+  }
+}

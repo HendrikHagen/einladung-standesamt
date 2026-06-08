@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FFFAF5;
+    font-family: 'Lato', sans-serif;
+    color: #4A3543;
+    overflow-x: hidden;
+    min-height: 100dvh;
+  }
+
+  #app {
+    min-height: 100dvh;
+  }
+}
+
+@layer components {
+  .section-card {
+    @apply bg-white/70 backdrop-blur-sm rounded-2xl p-6 shadow-sm border border-blush/40;
+  }
+
+  .divider-line {
+    @apply flex items-center gap-3 my-2;
+  }
+
+  .divider-line::before,
+  .divider-line::after {
+    content: '';
+    @apply flex-1 h-px bg-blush-dark/40;
+  }
+}
+
+/* Floating petals */
+@keyframes float-petal {
+  0%   { transform: translateY(0px) rotate(0deg);   opacity: 0.65; }
+  50%  { transform: translateY(-18px) rotate(15deg); opacity: 0.45; }
+  100% { transform: translateY(0px) rotate(0deg);   opacity: 0.65; }
+}
+
+.petal {
+  animation: float-petal 5s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Wax seal gentle pulse */
+@keyframes seal-pulse {
+  0%, 100% { transform: translateX(-50%) scale(1);    box-shadow: 0 4px 20px rgba(212, 134, 154, 0.3); }
+  50%       { transform: translateX(-50%) scale(1.04); box-shadow: 0 6px 28px rgba(212, 134, 154, 0.5); }
+}
+
+.seal-animate {
+  animation: seal-pulse 3s ease-in-out infinite;
+}
+
+/* Soft scrollbar */
+::-webkit-scrollbar       { width: 5px; }
+::-webkit-scrollbar-track { background: #FFF0EF; }
+::-webkit-scrollbar-thumb { background: #E8A5A0; border-radius: 4px; }
