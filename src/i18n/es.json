@@ -16,7 +16,9 @@
       "date": "17 de junio de 2026",
       "time": "11:30 h",
       "location": "Standesamt Karlsruhe - Raum Fidelitas",
-      "address": "Kaiserallee 8\n76133 Karlsruhe"
+      "address": "Kaiserallee 8\n76133 Karlsruhe",
+      "afterTitle": "Después",
+      "afterDescription": "A continuación haremos una parrillada en casa de los padres de Hendrik."
     },
     "closing": "¡Esperamos verte allí!",
     "signature": "Con cariño,"

@@ -91,6 +91,23 @@ onMounted(() => {
             </div>
           </div>
 
+          <div class="h-px bg-blush/70 mx-2" aria-hidden="true"></div>
+
+          <!-- Afterwards / BBQ -->
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-champagne flex items-center justify-center flex-shrink-0 mt-0.5" aria-hidden="true">
+              <span class="text-lg">🔥</span>
+            </div>
+            <div>
+              <p class="font-body text-[0.65rem] tracking-[0.25em] uppercase text-dusty-rose/60 mb-0.5">
+                {{ t('invitation.details.afterTitle') }}
+              </p>
+              <p class="font-body text-sm text-warm/80 leading-relaxed">
+                {{ t('invitation.details.afterDescription') }}
+              </p>
+            </div>
+          </div>
+
         </div>
       </section>
 
